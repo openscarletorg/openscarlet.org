@@ -1,9 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './navbar';
+import Hero from './Hero';
+import Navbar from './Navbar';
 
 function App() {
-  return <Navbar></Navbar>;
+  return <>
+    <Navbar/>
+    <Hero/>
+  </>
 }
 
 export default App;

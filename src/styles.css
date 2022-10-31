@@ -45,3 +45,20 @@ body {
 .nav li.hover {
     background-color: #777;
 }
+
+.hero {
+    color: white;
+    position: absolute;
+    width: 100%;
+    padding: 17rem;
+    text-align: center;
+    background-color: #282828;
+    text-transform: uppercase;
+}
+
+.hero h1 {
+    color: inherit;
+    text-decoration: none;
+    font-size: 4rem;
+    line-height: 0rem;
+}
