@@ -40,10 +40,12 @@ body {
     display: flex;
     align-items: center;
     padding: 0.25rem;
+    opacity: 1;
+    transition: 0.5s;
 }
 
-.nav li.hover {
-    background-color: #777;
+.nav a:hover {
+    color: #c2c2c2;
 }
 
 .hero {
