@@ -14,9 +14,9 @@ body {
 }
 
 .nav {
+    display: flex;
     background-color: #772e2e;
     color: white;
-    display: flex;
     justify-content: space-between;
     align-items: stretch;
     gap: 2rem;
@@ -50,17 +50,14 @@ body {
 
 .hero {
     color: white;
-    position: absolute;
-    width: 100%;
-    padding: 17rem;
     text-align: center;
-    background-color: #282828;
     text-transform: uppercase;
+    padding: 15rem;
+    background-color: #282828;
 }
 
 .hero h1 {
     color: inherit;
-    text-decoration: none;
     font-size: 4rem;
     line-height: 0rem;
 }
