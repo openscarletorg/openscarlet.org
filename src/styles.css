@@ -61,3 +61,51 @@ body {
     font-size: 4rem;
     line-height: 0rem;
 }
+
+.projectsRoot {
+    padding: 10rem;
+    padding-top: 2rem;
+}
+
+.projectsRoot h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.projects {
+    display: flex;
+    width: 100%;
+    line-height: 0rem;
+    justify-content: center;
+}
+
+
+.project {
+    border-radius: 1.5rem;
+    margin: 3rem;
+    background-color: white;
+    box-shadow: 0 3rem 4.5rem 1rem rgb(149, 149, 149);
+}
+
+.project img {
+    border-radius: 1.5rem;
+    object-fit: fill;
+    width: 25rem;
+    height: 14rem;
+    object-fit: cover;
+}
+
+.project h2 {
+    color: #d42020;
+    font-size: 1.3rem;
+}
+
+.project p {
+    font-size: 0.7rem;
+}
+
+.info {
+    text-align: center;
+    margin: 2.3rem;
+}
+
