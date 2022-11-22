@@ -65,6 +65,7 @@ body {
 .projectsRoot {
     padding: 10rem;
     padding-top: 2rem;
+    padding-bottom: 0;
 }
 
 .projectsRoot h1 {
@@ -80,7 +81,6 @@ body {
     line-height: 0;
     justify-content: center;
 }
-
 
 div.project {
     border-radius: 1.5rem;
@@ -115,4 +115,45 @@ div.project img {
     height: 14rem;
     object-fit: cover;
     filter: blur(0.2rem) brightness(50%);
+}
+
+.membersRoot {
+    padding: 10rem;
+    padding-bottom: 0;
+    padding-top: 2rem;
+}
+
+.membersRoot h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 0rem;
+}
+
+.members {
+    margin: 0;
+    display: flex;
+    width: 100%;
+    line-height: 0;
+    justify-content: center;
+}
+
+div.member {
+    border-radius: 1.5rem;
+    margin: 3rem;
+    text-transform: uppercase;
+    background-color: white;
+    box-shadow: 0 3rem 4.5rem 1rem rgb(149, 149, 149);
+    position: relative;
+}
+
+div.member img {
+    border-radius: 1.5rem;
+    object-fit: fill;
+    width: 15rem;
+    object-fit: cover;
+}
+
+div.name {
+    text-align: center;
+    padding-bottom: 0.2rem;
 }

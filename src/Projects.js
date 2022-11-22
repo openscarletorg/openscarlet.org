@@ -1,5 +1,4 @@
 import scarletnavImg from './images/scarletnav.png'
-import githubIcon from './icons/github.svg'
 
 export default function Projects() {
     return <div className="projectsRoot">
